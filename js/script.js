@@ -21,6 +21,20 @@ function troca3(){
     window.location.href = "contato.html"
 }
 
+function sendEmail(){
+    Email.send({
+        Host : "smtp.gmail.com",
+        Username : "nicolas535.garciass@gmail.com",
+        Password : "R7!i8@B31#.mcmGOOGLE",
+        To : 'nicolas535.garcia@gmail.com',
+        From : document.getElementById("email").value,
+        Subject : "This is the subject",
+        Body : "And this is the body"
+    }).then(
+      message => alert(message)
+    );
+}
+
 
 
 
