@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+    <script src="js/script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
 </head>
 <body>
@@ -45,10 +47,25 @@
 
     </header>
 
+    <div class="contato">
+        <form onsubmit="sendEmail(); reset(); return false">
+            <h3 class="h3c">Contate-nos</h3>
+            <input type="text" name="" id="Nome" placeholder="Seu nome" required>
+            <input type="email" name="" id="Email" placeholder="Seu email" required>
+            <input type="text" name="" id="phone" placeholder="Número de telefone" required>
+            <textarea id="Mensagem"  rows="4" placeholder="Como podemos te ajudar?"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+      
+
+    </div>
+
+   
+
  
   
 
 
-    <script src="js/script.js"></script>
+ 
 </body>
 </html>
