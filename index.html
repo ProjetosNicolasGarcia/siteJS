@@ -4,39 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hamburgueria</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="estilo.css">
+    <title>Indústria 4.0</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/889ef08e41.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon-32x32.png" type="image/x-icon">
+  
 
 </head>
 <body>
+
+    <style>
+        body {
+          background-image: url('img/J4x.gif');
+          width: 100%;
+          background-size: cover;
+        }
+        </style>
+
     <header>
 
      
         <nav class="navbar">
-            <a href class="nav-branding">N</a>
-
-            <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="javascript:void(0);" onclick="troca0();">Home</a> 
-                </li>
-                <li class="nav-item">
-                    <a href="javascript:void(0);" onclick="troca();">sobre</a> 
-                </li>
-                <li class="nav-item">
-                    <a href="javascript:void(0);" onclick="troca1();">Ingredientes</a> 
-                </li>
-                <li class="nav-item">
-                    <a href="javascript:void(0);" onclick="troca2();">cardápio</a> 
-                </li>
-                <li class="nav-item">
-                    <a href="javascript:void(0);" onclick="troca3();">Contato</a> 
-                </li>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"> 
+                <i class="bi bi-list"></i>
+            </label>
+            <label class ="logo">4.0</label>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="troca0();">Home</a></li>
+                <li><a href="javascript:void(0);" onclick="troca();">sobre</a></li>
+                <li><a href="javascript:void(0);" onclick="troca1();">Tecnologias</a></li>
+                <li><a href="javascript:void(0);" onclick="troca2();">Benefícios</a></li>
+                <li><a href="javascript:void(0);" onclick="troca3();">Contato</a></li>
             </ul>
         </nav>
 
+
     </header>
+
+    <section class="home">
+        <h1>INDÚSTRIA 4.0</h1>
+        <h2>Conheça mais sobre o futuro da tecnologia</h2>
+
+    </section>
   
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
