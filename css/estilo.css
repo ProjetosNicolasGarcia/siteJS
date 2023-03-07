@@ -1,0 +1,203 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+  background: #191970 ;
+  height: 80px;
+  width: 100%;
+
+}
+
+label.logo{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bolder;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;   
+}
+
+a.activate,a:hover{
+    background: #0082e6;
+    transition: .5s;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check{
+    display: none;
+}
+
+@media  (max-width: 952px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+
+    }
+    nav ul li a{
+        font-size: 16px;
+    }   
+}
+
+@media (max-width: 858px) {
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+    }
+    
+}
+
+h1{
+    padding-top: 15%;
+    padding-left: 30%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 100px;
+
+ 
+}
+
+
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-top: 2.5%;
+    padding-left: 30%;
+    font-size: 34px;
+}
+
+h3{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    color: #191970;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+h4{
+    color: #191970;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 1%;
+    padding-left: 5%;
+    
+}
+
+p{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    text-indent:35px;
+    line-height: 1.5;
+    padding-left: 5%;
+    padding-right: 60%;
+    font-size: 20px;
+    margin: 0%
+}
+
+.psobre{
+    padding-top: 7%;
+}
+
+
+.ptec{
+    padding-left: 5%;
+    padding-right: 30%;
+    text-align: left;
+    line-height: 1.5;
+    text-indent: 35px;
+    padding-bottom: 1%;
+}
+
+.beneficios{
+    padding-top: 30px;
+}
+
+.imgsobre{
+    
+    float: right;
+    width: 50%;
+    padding: 5%;
+    padding-bottom: 10%;
+
+}
+
+.imgbeneficios{
+    float: right;
+    width: 50%;
+    padding: 5%;
+    padding-bottom: 10%;
+
+}
+
+
+
+
+

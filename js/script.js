@@ -10,11 +10,11 @@ function troca(){
 }
 
 function troca1(){
-    window.location.href = "ingredientes.html"
+    window.location.href = "tecnologias.html"
 }
 
 function troca2(){
-    window.location.href = "cardapio.html"
+    window.location.href = "beneficios.html"
 }
 
 function troca3(){
